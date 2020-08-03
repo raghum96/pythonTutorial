@@ -21,3 +21,11 @@ Sep: {1}
 Oct: {2}
 Nov: {1}
 Dec: {2}""".format(28, 30, 31))
+
+age = 24
+print("age is {0}".format(age))
+print(f"age is {age}")
+
+print(f"Pi = {22 / 7:12.50f}")
+pi = 22 / 7
+print(f"Pi = {pi:12.50f}")
